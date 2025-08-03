@@ -1,5 +1,5 @@
 import React from "react";
-import { Instagram, Linkedin, Mail } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 // Кастомная иконка X
@@ -36,6 +36,12 @@ const Footer = () => {
       icon: Linkedin,
       href: "https://www.linkedin.com/in/chester-frontline-6a70b4348/",
       label: "Connect with us on LinkedIn",
+    },
+    {
+      name: "Facebook",
+      icon: Facebook,
+      href: "https://www.facebook.com/profile.php?id=61579092538790",
+      label: "Connect with us on Facebook",
     },
   ];
 
